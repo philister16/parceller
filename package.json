@@ -1,0 +1,20 @@
+{
+  "name": "statnotes",
+  "version": "0.0.1",
+  "description": "Static note taking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.pug",
+    "clear": "rm -rf ./dist && rm -rf ./.cache && rm -rf ./build",
+    "build": "parcel build ./src/index.pug --out-dir build"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "cssnano": "^4.1.8",
+    "pug": "^2.0.3",
+    "sass": "^1.16.1"
+  }
+}
